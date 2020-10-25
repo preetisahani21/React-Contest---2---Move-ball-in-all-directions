@@ -36,7 +36,7 @@ const App = () => {
       setX(newx);
     } else if (event.key === "ArrowUp") {
       newy = y - 5;
-      setY(y);
+      setY(newy);
     } else if (event.key === "ArrowDown") {
       newy = y + 5;
       setY(newy);
